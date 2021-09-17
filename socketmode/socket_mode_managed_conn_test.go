@@ -1,3 +1,4 @@
+//go:build go1.13
 // +build go1.13
 
 package socketmode
@@ -8,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/slack-go/slack"
-	"github.com/slack-go/slack/slacktest"
+	"github.com/abgault/slack"
+	"github.com/abgault/slack/slacktest"
 
 	"github.com/stretchr/testify/assert"
 )
